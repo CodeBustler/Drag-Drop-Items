@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  background-color: brown;
+}
+
+.left,
+.right {
+  width: 250px;
+  min-height: 300px;
+  border: 2px dashed rgb(166, 255, 1);
+  background-color: rgb(7, 6, 3);
+  padding: 10px 20px;
+}
+
+.item {
+  width: 100%;
+  background-color: rgb(117, 18, 199);
+  color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fa-grip {
+  font-size: larger;
+  margin-right: 10px;
+  color: rgb(201, 197, 197);
+}
+
+.move {
+  border: 5px solid yellow;
+}
+
+footer {
+  color: gray;
+  
+}
